@@ -11,6 +11,15 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
       ),
 
+      // body: Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: Center(
+      //   child: Text('Background Service Example'),
+      // ),
       body: Center(
         child: Text('Background Service Example'),
       ),
