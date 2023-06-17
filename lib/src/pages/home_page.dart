@@ -32,25 +32,25 @@ class HomePage extends StatelessWidget {
         child: Text('Background Service Example'),
       ),
     );
-      body: Center(
-        child: Text('Background Service Example'),
-      ),
-  
-    );
-      body: Center(
-        child: Text('Background Service Example'),
-      ),
-  
-    );
-      body: Center(
-        child: Text('Background Service Example'),
-      ),
-  
-    );
-      body: Center(
-        child: Text('Background Service Example'),
-      ),
-  
-    );
+    //   body: Center(
+    //     child: Text('Background Service Example'),
+    //   ),
+
+    // );
+    //   body: Center(
+    //     child: Text('Background Service Example'),
+    //   ),
+
+    // );
+    //   body: Center(
+    //     child: Text('Background Service Example'),
+    //   ),
+
+    // );
+    //   body: Center(
+    //     child: Text('Background Service Example'),
+    //   ),
+
+    // );
   }
 }
