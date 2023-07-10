@@ -10,9 +10,51 @@ class HomePage extends StatelessWidget {
         title: const Text('Background Service Example'),
         centerTitle: true,
       ),
-      body: Center(
+      body: const Center(
         child: Text('Background Service Example'),
       ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
+      // body: const Center(
+      //   child: Text('Background Service Example'),
+      // ),
     );
   }
 }
