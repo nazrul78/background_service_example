@@ -16,6 +16,10 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
       ),
       body: const Center(child: Text('Home')),
+      // body: const Center(child: Text('Home')),
+      // body: const Center(child: Text('Home')),
+      // body: const Center(child: Text('Home')),
+      // body: const Center(child: Text('Home')),
     );
   }
 }
