@@ -1,4 +1,4 @@
-# background_service_example
+# flutter_background_service_practice
 
 A new Flutter project.
 

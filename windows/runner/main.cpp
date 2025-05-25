@@ -27,7 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-  if (!window.Create(L"background_service_example", origin, size)) {
+  if (!window.Create(L"flutter_background_service_practice", origin, size)) {
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

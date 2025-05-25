@@ -1,6 +1,6 @@
 {
-    "name": "background_service_example",
-    "short_name": "background_service_example",
+    "name": "flutter_background_service_practice",
+    "short_name": "flutter_background_service_practice",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
