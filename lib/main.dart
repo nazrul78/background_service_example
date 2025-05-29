@@ -11,8 +11,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await initializeService();
+
   runApp(const MyApp());
+
+  /// Delay a bit to ensure main isolate is ready
+  await Future.delayed(Duration(seconds: 3), () async {
+    /// Flutter Background Service init
+    await initializeService();
+  });
 }
 
 Future<void> initializeService() async {
