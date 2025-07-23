@@ -7,7 +7,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Login page')),
-      // body: Column(children: [Center(child: Text('Login Page'))]),
+      body: SingleChildScrollView(
+        child: Column(children: [Center(child: Text('Login Page'))]),
+      ),
     );
   }
 }
