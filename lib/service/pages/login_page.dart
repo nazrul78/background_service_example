@@ -25,6 +25,8 @@ class HomePage extends StatelessWidget {
               labelText: 'Password',
             ),
           ),
+
+          SizedBox(height: 30),
         ],
       ),
     );
