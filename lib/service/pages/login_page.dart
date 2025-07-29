@@ -26,7 +26,27 @@ class HomePage extends StatelessWidget {
             ),
           ),
 
-          SizedBox(height: 30),
+          SizedBox(height: 20),
+
+          TextButton(
+            onPressed: () async {},
+            style: TextButton.styleFrom(
+              backgroundColor: Colors.green,
+
+              // backgroundColor: Base.authController.textFieldBgColor,
+              padding: const EdgeInsets.symmetric(
+                vertical: 14.0,
+                horizontal: 50,
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(12.0),
+              ),
+            ),
+            child: Text(
+              'Login',
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+            ),
+          ),
         ],
       ),
     );
