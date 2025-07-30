@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
           SizedBox(height: 20),
 
           TextButton(
-            onPressed: () async {},
+            onPressed: () {},
             style: TextButton.styleFrom(
               backgroundColor: Colors.green,
 
