@@ -33,9 +33,6 @@ class HomePage extends StatelessWidget {
           TextButton(
             onPressed: () {
               log('Login button pressd >>>>>>>>>>>>>>>>>>>');
-              // log('Login button pressd >>>>>>>>>>>>>>>>>>>');
-              // log('Login button pressd >>>>>>>>>>>>>>>>>>>');
-              // log('Login button pressd >>>>>>>>>>>>>>>>>>>');
             },
             style: TextButton.styleFrom(
               backgroundColor: Colors.green,
@@ -46,7 +43,7 @@ class HomePage extends StatelessWidget {
                 horizontal: 50,
               ),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(12.0),
+                borderRadius: BorderRadius.circular(5.0),
               ),
             ),
             child: Text(
