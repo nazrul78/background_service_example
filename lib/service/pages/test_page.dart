@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
+class TestPage extends StatelessWidget {
+  const TestPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login page')),
+      appBar: AppBar(title: Text('TestPage')),
       body: SingleChildScrollView(
-        child: Column(children: [Center(child: Text('Login Page'))]),
+        child: Column(children: [Center(child: Text('TestPage'))]),
       ),
     );
   }
