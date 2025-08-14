@@ -6,7 +6,7 @@ class TestPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('TestPage'), centerTitle: true),
+      appBar: AppBar(title: Text('Example Page'), centerTitle: true),
       body: SingleChildScrollView(
         child: Column(children: [Center(child: Text('TestPage'))]),
       ),
