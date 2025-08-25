@@ -7,29 +7,45 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Sign Up page')),
-      body: Column(children: [
-               TextField(
+      body: Column(
+        children: [
+          TextField(
             //obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'User Name',
             ),
           ),
-               TextField(
+          TextField(
             //obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Email',
             ),
           ),
-               TextField(
+          TextField(
             //obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
               labelText: 'Mobile',
             ),
           ),
-      ]),
+          TextField(
+            //obscureText: true,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'Address',
+            ),
+          ),
+          TextField(
+            //obscureText: true,
+            decoration: InputDecoration(
+              border: OutlineInputBorder(),
+              labelText: 'NID No',
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
