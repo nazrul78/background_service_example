@@ -107,27 +107,6 @@ class HomePage extends StatelessWidget {
               labelText: 'Emp Id',
             ),
           ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Emp Id',
-            ),
-          ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Emp Id',
-            ),
-          ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Emp Id',
-            ),
-          ),
         ],
       ),
     );
