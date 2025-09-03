@@ -97,7 +97,7 @@ class HomePage extends StatelessWidget {
             //obscureText: true,
             decoration: InputDecoration(
               border: OutlineInputBorder(),
-              labelText: 'Emp Id',
+              labelText: 'Employee id',
             ),
           ),
         ],
