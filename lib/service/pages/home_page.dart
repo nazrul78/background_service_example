@@ -11,12 +11,6 @@ class HomePage extends StatelessWidget {
       // body: Column(children: [Center(child: Text('Home Page'))]),
       // body: Column(children: [Center(child: Text('Home Page'))]),
       // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
-      // body: Column(children: [Center(child: Text('Home Page'))]),
     
     );
   }
