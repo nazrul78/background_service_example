@@ -44,27 +44,6 @@ class HomePage extends StatelessWidget {
               labelText: 'NID No',
             ),
           ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Full Name',
-            ),
-          ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Emp Id',
-            ),
-          ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Emp Id',
-            ),
-          ),
         ],
       ),
     );
