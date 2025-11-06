@@ -30,20 +30,6 @@ class HomePage extends StatelessWidget {
               labelText: 'Mobile',
             ),
           ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'Address',
-            ),
-          ),
-          TextField(
-            //obscureText: true,
-            decoration: InputDecoration(
-              border: OutlineInputBorder(),
-              labelText: 'NID No',
-            ),
-          ),
         ],
       ),
     );
