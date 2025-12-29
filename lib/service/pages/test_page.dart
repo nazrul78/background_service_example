@@ -8,7 +8,24 @@ class TestPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Example Page'), centerTitle: true),
       body: SingleChildScrollView(
-        child: Column(children: [Center(child: Text('TestPage'))]),
+        child: Column(
+          children: [
+            TextField(
+              //obscureText: true,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'User Name',
+              ),
+            ),
+            TextField(
+              //obscureText: true,
+              decoration: InputDecoration(
+                border: OutlineInputBorder(),
+                labelText: 'User Name',
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
