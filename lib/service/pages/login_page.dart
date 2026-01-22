@@ -821,28 +821,6 @@ class LoginPage extends StatelessWidget {
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
           ),
-
-          TextButton(
-            onPressed: () {
-              log('Login button pressd >>>>>>>>>>>>>>>>>>>');
-            },
-            style: TextButton.styleFrom(
-              backgroundColor: Colors.blue,
-
-              // backgroundColor: Base.authController.textFieldBgColor,
-              padding: const EdgeInsets.symmetric(
-                vertical: 14.0,
-                horizontal: 50,
-              ),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(5.0),
-              ),
-            ),
-            child: Text(
-              'Login',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-            ),
-          ),
         ],
       ),
     );
