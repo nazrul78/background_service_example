@@ -39,20 +39,6 @@ class TestPage extends StatelessWidget {
                 labelText: 'User Name',
               ),
             ),
-            TextField(
-              //obscureText: true,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'User Name',
-              ),
-            ),
-            TextField(
-              //obscureText: true,
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                labelText: 'User Name',
-              ),
-            ),
           ],
         ),
       ),
